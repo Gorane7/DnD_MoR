@@ -15,3 +15,6 @@ In original 5e there are 9 different classes (10 if you count artificer) and the
 
 #### Added to a separate skill tree  
 * Proficiency bonus
+
+#### Added somewhere, currently unknown
+* Extra attack
