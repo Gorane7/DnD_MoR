@@ -20,3 +20,11 @@
 | 18th  | Martial Acrhetype Feature         |
 | 19th  | ASI                               |
 | 20th  | Extra Attack (3)                  |
+
+### Fighting style options
+* Archery
+* Defense
+* Dueling
+* Great Weapon Fighting
+* Protection
+* Two-Weapon Fighting
