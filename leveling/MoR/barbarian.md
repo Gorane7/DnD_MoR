@@ -1,22 +1,40 @@
-| Level | Features                      | Rages | Rage Damage |
-|:-----:|:-----------------------------:|:-----:|:-----------:|
-| 1st   | Rage, Unarmored Defense       | 2     | +2          |
-| 2nd   | Danger Sense, Reckless Attack | 2     | +2          |
-| 3rd   | Primal Path                   | 3     | +2          |
-| 4th   | -                             | 3     | +2          |
-| 5th   | Extra Attack, Fast Movement   | 3     | +2          |
-| 6th   | Path Feature                  | 4     | +2          |
-| 7th   | Feral Instinct                | 4     | +2          |
-| 8th   | -                             | 4     | +2          |
-| 9th   | Brutal Critical (1 die)       | 4     | +3          |
-| 10th  | Path feature                  | 4     | +3          |
-| 11th  | Relentless Rage               | 4     | +3          |
-| 12th  | -                             | 5     | +3          |
-| 13th  | Brutal Critical (2 dice)      | 5     | +3          |
-| 14th  | Path feature                  | 5     | +3          |
-| 15th  | Persistent Rage               | 5     | +3          |
-| 16th  | -                             | 5     | +4          |
-| 17th  | Brutal Critical (3 dice)      | 6     | +4          |
-| 18th  | Indomitable Might             | 6     | +4          |
-| 19th  | -                             | 6     | +4          |
-| 20th  | Primal Champion               | inf   | +4          |
+
+### Barbarian skill tree
+| ID   | Feature           | Requirements |
+|:----:|:-----------------:|:------------:|
+| BB1  | Rage              |              |
+| BB2  | Unarmored Defense | BB1          |
+| BB3  | Danger Sense      | BB2          |
+| BB4  | Reckless Attack   | BB3          |
+| BB5  | Fast Movement     | BB4          |
+| BB6  | Feral Instinct    | BB5          |
+| BB7  | Relentless Rage   | BB6          |
+| BB8  | Persistent Rage   | BB7          |
+| BB9  | Indomitable Might | BB8          |
+| BB10 | Primal Champion   | BB9          |
+
+### Brutal critical tree
+| ID  | Dice amount | Requirements |
+|:---:|:-----------:|:------------:|
+| BC1 | 1           | BB6          |
+| BC2 | 2           | BC1          |
+| BC3 | 3           | BC2          |
+
+### Rage amount tree
+| ID  | Rage amount | Requirements |
+|:---:|:-----------:|:------------:|
+| BB1 | 1           |              |
+| RG1 | 2           | BB1          |
+| RG2 | 3           | RG1          |
+| RG3 | 4           | RG2          |
+| RG4 | 5           | RG3          |
+| RG5 | 6           | RG4          |
+| RG6 | inf         | RG5          |
+
+### Rage extra damage tree
+| ID  | Extra damage | Requirements |
+|:---:|:------------:|:------------:|
+| BB1 | 1            |              |
+| RD1 | 2            | BB1          |
+| RD2 | 3            | RD1          |
+| RD3 | 4            | RD2          |
